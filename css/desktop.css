@@ -1,0 +1,232 @@
+@media (min-width: 768px) {
+  .header {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .header-icon {
+    width: 50px;
+  }
+
+  .header-figure,
+  .header-logo {
+    height: 100%;
+  }
+
+  .header-icon {
+    display: none;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-right: 10px;
+  }
+
+  .social-media-link {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding-block: 2px;
+  }
+
+  .social-media-image {
+    width: 30%;
+    max-width: 30px;
+  }
+  .social-media-title {
+    font-weight: 300;
+    padding-inline: 10px;
+  }
+
+  .main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 6rem;
+  }
+
+  .company {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .company-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .company-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-block: 5px;
+    color: #eb6a22;
+  }
+  .company-title {
+    width: 70%;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .company-paragraph {
+    margin-bottom: 20px;
+  }
+  .company-paragraph-last,
+  .company-paragraph {
+    font-size: calc(0.1em + 0.9vw);
+    font-weight: 500;
+  }
+  .introduction-figure {
+    margin-inline: auto;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .introduction-image {
+    width: 300px;
+    height: 100%;
+    filter: brightness(1.1);
+    filter: saturate(1.5);
+  }
+
+  .treinee {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 1fr)) 150px;
+    align-items: center;
+    padding-right: 50px;
+  }
+
+  #triangle {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 65vw 70vh 0;
+    border-color: transparent #f4732a transparent transparent;
+    transform: rotate(0deg);
+  }
+  .treinee-section {
+    text-align: center;
+  }
+  .treinee-title {
+    font-weight: 400;
+    color: #474141;
+    text-align: center;
+  }
+  .treinee-paragraph {
+    margin-inline: auto;
+    margin-block: 30px;
+    color: #ff7a00;
+    font-size: calc(0.1em + 1vw);
+  }
+
+  .treinee-information {
+    display: flex;
+    justify-content: center;
+  }
+  .treinee-name {
+    padding-inline: 2px;
+    font-weight: 200;
+  }
+  .treinee-function {
+    font-weight: 500;
+  }
+
+  .treinee-form {
+    z-index: 1;
+    background-color: #ffffff;
+    max-width: 500px;
+    height: 80%;
+    max-height: 300px;
+    border: 2px solid #fa732a;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 20px;
+    padding-block: 10px;
+    overflow: auto;
+  }
+  .treinee-form-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .treinee-logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+  }
+
+  .treinee-form-input {
+    background-color: #d9d9d9;
+    width: 60%;
+    max-width: 250px;
+    height: 20%;
+    min-height: 20px;
+    max-height: 40px;
+    margin-inline: auto;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .treinee-form-input::placeholder {
+    color: #000000;
+  }
+
+  .treinee-form-button {
+    margin-inline: auto;
+    width: 40%;
+    min-width: 80px;
+    max-width: 90px;
+    background-color: #f4732a;
+    color: #ffffff;
+    padding-block: 10px;
+    border-radius: 10px;
+  }
+  .treinee-figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .treinee-figure-image {
+    width: 100%;
+    max-width: 240px;
+  }
+  .footer {
+    background-color: var(--secondary-color);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-image {
+    height: 80%;
+    max-height: 150px;
+    align-self: center;
+  }
+}

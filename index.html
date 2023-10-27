@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafio</title>
+
+        <link rel="icon" type="image/x-icon" href="/images/logo.svg" />
+
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/desktop.css" />
+        <link rel="stylesheet" href="./css/mobile.css" />
+    </head>
+    <body>
+        <header class="header">
+            <figure class="header-figure">
+                <img
+                    class="header-logo"
+                    alt="logo"
+                    src="./images/engnetLogo.svg"
+                />
+            </figure>
+            <img
+                class="header-icon"
+                id="sidebar"
+                onclick="sideBarOpen"
+                src="./images/bars-4-icon.svg"
+            />
+            <div class="social-media">
+                <a
+                    class="social-media-link"
+                    href="https://instagram.com/engnetconsultoria?igshid=MzRlODBiNWFlZA=="
+                    target="_blank"
+                >
+                    <img
+                        class="social-media-image"
+                        alt="Instagram logo"
+                        src="./images/instagramlogo.svg"
+                    />
+                    <h5 class="social-media-title">Instagram</h5>
+                </a>
+
+                <a
+                    class="social-media-link"
+                    href="https://www.linkedin.com/company/engnet-consultoria-s-c/"
+                    target="_blank"
+                >
+                    <img
+                        class="social-media-image"
+                        alt="LinkedIn logo"
+                        src="./images/linkedin.svg"
+                    />
+                    <h5 class="social-media-title">LinkedIn</h5>
+                </a>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="company">
+                <div class="company-section">
+                    <h2 class="company-subtitle">O que somos</h2>
+                    <h1 class="company-title">Empresa Junior de Tecnologia</h1>
+                    <p class="company-paragraph">
+                        Uma empresa júnior é uma organização sem fins lucrativos
+                        composta por estudantes universitários que se dedicam a
+                        oferecer serviços de consultoria e desenvolvimento para
+                        empresas.
+                    </p>
+                    <p class="company-paragraph">
+                        A ideia principal da empresa júnior é proporcionar uma
+                        oportunidade para que os estudantes possam aplicar na
+                        prática os conhecimentos adquiridos na universidade e,
+                        ao mesmo tempo, ajudar empresas e organizações a
+                        solucionar problemas e aprimorar seus processos de
+                        negócio.
+                    </p>
+                    <p class="company-paragraph-last">
+                        Além disso, a empresa júnior também promove o
+                        desenvolvimento pessoal e profissional dos estudantes,
+                        que têm a oportunidade de desenvolver habilidades de
+                        liderança, trabalho em equipe, negociação, comunicação,
+                        entre outras competências importantes para o mercado de
+                        trabalho.
+                    </p>
+                </div>
+                <figure class="introduction-figure">
+                    <img
+                        class="introduction-image"
+                        alt=""
+                        src="./images/photo1.svg"
+                    />
+                </figure>
+            </section>
+
+            <section class="treinee">
+                <i id="triangle"></i>
+                <div class="treinee-section">
+                    <h1 class="treinee-title">
+                        Por que você entrou na EngNet ?
+                    </h1>
+                    <p class="treinee-paragraph">
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nam sed sem id tortor porta feugiat. Interdum et
+                        malesuada fames ac ante ipsum primis in faucibus. Donec
+                        lacinia ante at justo sodales pretium. Morbi malesuada,
+                        tellus placerat porta egestas, felis dolor ornare
+                        ligula, eget interdum mi leo ut dui.”
+                    </p>
+                    <div class="treinee-information">
+                        <h5 class="treinee-name">Fulano</h5>
+                        <h5 class="treinee-function">- Treinee</h5>
+                    </div>
+                </div>
+                <form
+                    action="mailto:aninhaslopess@gmail.com.br"
+                    method="post"
+                    enctype="text/plain"
+                    class="treinee-form"
+                    id="form"
+                >
+                    <h3 class="treinee-form-title">
+                        Entre no nosso banco de talentos
+                    </h3>
+                    <input
+                        class="treinee-form-input"
+                        id="name"
+                        type="text"
+                        name="nome"
+                        placeholder="Nome completo"
+                        required="required"
+                    />
+                    <input
+                        class="treinee-form-input"
+                        id="email"
+                        type="email"
+                        placeholder="Email"
+                        required="required"
+                    />
+                    <input
+                        class="treinee-form-input"
+                        id="telephone"
+                        type="tel"
+                        placeholder="Número de telefone"
+                        required="required"
+                    />
+                    <button class="treinee-form-button">Enviar</button>
+                    <img
+                        class="treinee-logo"
+                        alt="logo"
+                        src="./images/logo.svg"
+                    />
+                </form>
+
+                <figure class="treinee-figure">
+                    <img
+                        class="treinee-figure-image"
+                        alt="Zilla"
+                        src="./images/zilla.svg"
+                    />
+                </figure>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <img
+                class="footer-image"
+                alt="logo"
+                src="./images/engnetLogo.svg"
+            />
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
